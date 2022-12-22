@@ -1,17 +1,15 @@
 package com.example.class3demo2;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.class3demo2.model.Model;
 import com.example.class3demo2.model.Student;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class StudentDetails extends AppCompatActivity {
     int studentPos;
@@ -24,7 +22,7 @@ public class StudentDetails extends AppCompatActivity {
         Bundle b = getIntent().getExtras();
         if (b != null) {
             studentPos = b.getInt("pos");
-          fillStudentDetails();
+            fillStudentDetails();
 
             Button editBtn = findViewById(R.id.studentDetails_edit_btn);
             editBtn.setOnClickListener(view -> {

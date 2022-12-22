@@ -1,13 +1,12 @@
 package com.example.class3demo2;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.class3demo2.model.Model;
 import com.example.class3demo2.model.Student;

@@ -1,16 +1,16 @@
 package com.example.class3demo2;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.class3demo2.model.Model;
 import com.example.class3demo2.model.Student;
@@ -89,8 +89,8 @@ public class StudentRecyclerList extends AppCompatActivity {
         void onItemClick(int pos);
     }
 
-    public class rowClickedListener implements OnItemClickListener{
-        public void onItemClick(int pos){
+    public class rowClickedListener implements OnItemClickListener {
+        public void onItemClick(int pos) {
             Intent intent = new Intent(StudentRecyclerList.this, StudentDetails.class);
             Bundle b = new Bundle();
             b.putInt("pos", pos);

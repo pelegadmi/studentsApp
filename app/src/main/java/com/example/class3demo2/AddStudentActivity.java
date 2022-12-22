@@ -1,19 +1,19 @@
 package com.example.class3demo2;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.TextView;
 
-import com.example.class3demo2.model.Student;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.class3demo2.model.Model;
+import com.example.class3demo2.model.Student;
 
 public class AddStudentActivity extends AppCompatActivity {
 
     StudentRecyclerList.StudentRecyclerAdapter adapter = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
