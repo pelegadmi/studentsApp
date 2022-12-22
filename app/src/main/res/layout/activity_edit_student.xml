@@ -145,7 +145,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginBottom="15dp"
         android:text="SAVE"
-        app:backgroundTint="#D0ECDE"
+        app:backgroundTint="#3F51B5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -156,7 +156,7 @@
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="15dp"
         android:text="CANCEL"
-        app:backgroundTint="#D0ECDE"
+        app:backgroundTint="#3F51B5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -166,7 +166,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:text="DELETE"
-        app:backgroundTint="#D0ECDE"
+        app:backgroundTint="#3F51B5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/studentEdit_cancel_btn"
         app:layout_constraintStart_toEndOf="@+id/studentEdit_save_btn" />
